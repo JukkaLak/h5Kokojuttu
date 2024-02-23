@@ -1,5 +1,5 @@
 # h5 Koko juttu
-## a)
+## a) Uuden virtuaalikoneen luonti ja web-palvelimen asennus
 - Aloitin uuden tyhjän virtuaalikoneen luomisen antamalla sille nimen, lisäämällä Debian 12 ISO Imagen, jota olen käyttänyt myös aiemmin luomissani virtuaalikoneissani, ja versioksi valitsin
 Debianin 64 bittisen käyttöliittymän. Muistin määräksi asetin 4000 MB:ta ja loin koneelle 60 GB:n virtuaalikovalevyn. Kun olin nämä asetukset tehnyt, käynnistin koneen.
 - Kun kone oli käynnistynyt, avasin Debian installerin Debianin asentamista varten. Asetin koneen sijainniksi Helsingin, asetin suomenkielisen näppäimistön, valitsin Partitions valikossa
