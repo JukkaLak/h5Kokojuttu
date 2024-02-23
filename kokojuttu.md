@@ -31,7 +31,7 @@ Kun päivitykset oli asennettu, asensin vielä palomuurin komennolla
 ![Näyttökuva (46).png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/N%C3%A4ytt%C3%B6kuva%20(46).png)
 - Sitten korvasin testisivun syöttämällä komennon
     ```$echo Hello|sudo tee /var/www/html/index.html```
-
+![Näyttökuva (47).png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/N%C3%A4ytt%C3%B6kuva%20(47).png)
  
 
 
