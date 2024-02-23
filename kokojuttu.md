@@ -28,6 +28,10 @@ Kun päivitykset oli asennettu, asensin vielä palomuurin komennolla
     ```$ sudo usermod --lock root```.
 - Seuraavaksi asensin Apachen myös virtuaalipalvelimelleni ja tein palomuuriin uuden reiän komennolla
     ```$ sudo ufw allow 80/tcp``` ja tämän jälkeen testasin selaimessa, vastaako palvelin osoitteessa jukkalakkala.live ja minulle avutui Apachen testisivu eli palvelin toimi.
+![Näyttökuva (46).png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/N%C3%A4ytt%C3%B6kuva%20(46).png)
+- Sitten korvasin testisivun syöttämällä komennon
+    ```$echo Hello|sudo tee /var/www/html/index.html```
+
  
 
 
