@@ -33,7 +33,17 @@ Kun päivitykset oli asennettu, asensin vielä palomuurin komennolla
     ```$echo Hello|sudo tee /var/www/html/index.html```
 ![Näyttökuva (47).png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/N%C3%A4ytt%C3%B6kuva%20(47).png)
 - Seuraavaksi aloin muokkaamaan etusivua name based virtual host -tekniikkaa hyödyntäen. Aluksi loin käyttäjäni kotihakemistoon uuden publicsites-nimisen kansion.
-   `
+![Screenshot_2024-02-25_15-38-56.png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/Screenshot_2024-02-25_15-38-56.png)
+- Seuraavaksi aloin luomaan uutta nimipohjaista virtuaali-isäntää nimellä jukka.example.com seuraavalla tavalla:
+![Screenshot_2024-02-25_15-49-57.png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/Screenshot_2024-02-25_15-49-57.png)
+![Screenshot_2024-02-25_15-46-49.png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/Screenshot_2024-02-25_15-46-49.png)
+- Tämän jälkeen laitoin uuden sivun päälle komennolla
+    ```$ sudo a2ensite jukka.example.com``` ja käynnistin Apachen uudelleen. Uudelleenkäynnistyksen yhteydessä minulta vaadittiin autentikaatiota pilvipalvelimeni käyttäjältä
+![Screenshot_2024-02-25_16-07-49.png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/Screenshot_2024-02-25_16-07-49.png)
+- Seuraavaksi laitoin oletuksena päällä olleen sivun "000-default.conf" pois päältä komennolla
+    ```sudo a2dissite 000-default.conf``` ja käynnistin Apachen jälleen uudestaan.
+- Tämän jälkeen minulle tuli jälleen kerran ylitsepääsemättömiä vaikeuksia saada sivu toimimaan, enkä osannut näitä ongelmia ratkaista, joten tehtävä jäi kesken.
+
 
 
 
