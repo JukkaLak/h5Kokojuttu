@@ -32,7 +32,9 @@ Kun päivitykset oli asennettu, asensin vielä palomuurin komennolla
 - Sitten korvasin testisivun syöttämällä komennon
     ```$echo Hello|sudo tee /var/www/html/index.html```
 ![Näyttökuva (47).png](https://github.com/JukkaLak/h5Kokojuttu/blob/main/N%C3%A4ytt%C3%B6kuva%20(47).png)
- 
+- Seuraavaksi aloin muokkaamaan etusivua name based virtual host -tekniikkaa hyödyntäen. Aluksi loin käyttäjäni kotihakemistoon uuden publicsites-nimisen kansion.
+   `
+
 
 
 
